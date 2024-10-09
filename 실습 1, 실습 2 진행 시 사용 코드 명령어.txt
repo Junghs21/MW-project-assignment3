@@ -1,0 +1,5 @@
+실습 1 코드
+curl -X POST http://127.0.0.1:8000 -d "This is a test request"
+
+실습 2 코드
+curl -X POST -F "image=@/Users/jhs/Desktop/test.png;type=image/png" http://127.0.0.1:8000
